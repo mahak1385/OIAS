@@ -1,0 +1,73 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<RootNamespace>Core</RootNamespace>
+		<UseWPF>true</UseWPF>
+		<ImportedNamespaces>Core=False,System.IO=False,System.Text=False,System.Security=False,System.Security.AccessControl=False,System.Security.Authentication=False,System.Security.Authentication.ExtendedProtection=False,System.Security.Claims=False,System.Security.Cryptography=False,System.Security.Cryptography.Pkcs=False,System.Security.Cryptography.X509Certificates=False,System.Security.Cryptography.Xml=False,System.Security.Permissions=False,System.Security.Policy=False,System.Security.Principal=False,System.Security.RightsManagement=False,System.Windows=False,System.Windows.Controls=False,System.Windows.Data=False,System.Windows.Documents=False,System.Windows.Forms=False,System.Windows.Input=False,System.Windows.Media=False,System.Windows.Media.Imaging=False,System.Windows.Navigation=False,System.Windows.Shapes=False,System.Xaml=False,Microsoft.VisualBasic=True,System=True,System.Collections=True,System.Collections.Generic=True,System.Diagnostics=True,System.Linq=True,System.Xml.Linq=True,System.Threading.Tasks=True,OIAS=True</ImportedNamespaces>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="Quarantine.xaml\**" />
+	  <EmbeddedResource Remove="Quarantine.xaml\**" />
+	  <None Remove="Quarantine.xaml\**" />
+	  <Page Remove="Quarantine.xaml\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Import Include="Core" />
+		<Import Include="System.IO" />
+		<Import Include="System.Text" />
+		<Import Include="System.Security" />
+		<Import Include="System.Security.AccessControl" />
+		<Import Include="System.Security.Authentication" />
+		<Import Include="System.Security.Authentication.ExtendedProtection" />
+		<Import Include="System.Security.Claims" />
+		<Import Include="System.Security.Cryptography" />
+		<Import Include="System.Security.Cryptography.Pkcs" />
+		<Import Include="System.Security.Cryptography.X509Certificates" />
+		<Import Include="System.Security.Cryptography.Xml" />
+		<Import Include="System.Security.Permissions" />
+		<Import Include="System.Security.Policy" />
+		<Import Include="System.Security.Principal" />
+		<Import Include="System.Security.RightsManagement" />
+		<Import Include="System.Windows" />
+		<Import Include="System.Windows.Controls" />
+		<Import Include="System.Windows.Data" />
+		<Import Include="System.Windows.Documents" />
+		<Import Include="System.Windows.Forms" />
+		<Import Include="System.Windows.Input" />
+		<Import Include="System.Windows.Media" />
+		<Import Include="System.Windows.Media.Imaging" />
+		<Import Include="System.Windows.Navigation" />
+		<Import Include="System.Windows.Shapes" />
+		<Import Include="System.Xaml" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Ookii.Dialogs.Wpf" Version="5.0.1" />
+	  <PackageReference Include="System.Data.SQLite.Core" Version="1.0.119" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Resource Include="Icon.ico" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="My Project\Settings.Designer.vb">
+	    <DesignTimeSharedInput>True</DesignTimeSharedInput>
+	    <AutoGen>True</AutoGen>
+	    <DependentUpon>Settings.settings</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="My Project\Settings.settings">
+	    <CustomToolNamespace>My</CustomToolNamespace>
+	    <Generator>SettingsSingleFileGenerator</Generator>
+	    <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+	  </None>
+	</ItemGroup>
+
+</Project>  

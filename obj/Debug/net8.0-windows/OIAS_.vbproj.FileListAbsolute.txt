@@ -1,0 +1,15 @@
+C:\Users\abhay\source\repos\OIAS_\OIAS_\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\abhay\source\repos\OIAS_\OIAS_\obj\Debug\net8.0-windows\pages\Databasepage.baml
+C:\Users\abhay\source\repos\OIAS_\OIAS_\obj\Debug\net8.0-windows\pages\HomePage.baml
+C:\Users\abhay\source\repos\OIAS_\OIAS_\obj\Debug\net8.0-windows\pages\quarantinepage.baml
+C:\Users\abhay\source\repos\OIAS_\OIAS_\obj\Debug\net8.0-windows\pages\ScanPage.baml
+C:\Users\abhay\source\repos\OIAS_\OIAS_\obj\Debug\net8.0-windows\pages\Settingpage.baml
+C:\Users\abhay\source\repos\OIAS_\OIAS_\obj\Debug\net8.0-windows\MainWindow.g.vb
+C:\Users\abhay\source\repos\OIAS_\OIAS_\obj\Debug\net8.0-windows\pages\Databasepage.g.vb
+C:\Users\abhay\source\repos\OIAS_\OIAS_\obj\Debug\net8.0-windows\pages\HomePage.g.vb
+C:\Users\abhay\source\repos\OIAS_\OIAS_\obj\Debug\net8.0-windows\pages\quarantinepage.g.vb
+C:\Users\abhay\source\repos\OIAS_\OIAS_\obj\Debug\net8.0-windows\pages\ScanPage.g.vb
+C:\Users\abhay\source\repos\OIAS_\OIAS_\obj\Debug\net8.0-windows\pages\Settingpage.g.vb
+C:\Users\abhay\source\repos\OIAS_\OIAS_\obj\Debug\net8.0-windows\Application.g.vb
+C:\Users\abhay\source\repos\OIAS_\OIAS_\obj\Debug\net8.0-windows\OIAS__MarkupCompile.cache
+C:\Users\abhay\source\repos\OIAS_\OIAS_\obj\Debug\net8.0-windows\OIAS__MarkupCompile.lref
