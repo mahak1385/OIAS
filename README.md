@@ -1,2 +1,2 @@
 # OIAS
-Offline Antivirus
+Offline Intelligent Antivirus System , a college project made for learning purpose. 
